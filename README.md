@@ -18,7 +18,7 @@ This website creates unique, secure passwords for users, it includes settings li
 
 
 ## Website
-https://for-timi.github.io/
+[https://for-timi.github.io/](https://for-timi.github.io/PasswordGenerator/)
 
 ## Contribution
 Made with ❤️ by Timi
