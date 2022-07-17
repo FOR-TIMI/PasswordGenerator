@@ -10,7 +10,7 @@ body{
 
 .container {
      width: 40%;
-    margin: 20px auto;
+    margin: 50px auto;
     background-color: #1B1B32;
     border-radius: 10px ;
     display: flex;
@@ -193,6 +193,7 @@ textarea{
     padding: 70px 0 0px 0px;
     background-color: #0A0A23;
     resize: none;
+    margin-bottom: 50px;
 }
 
 
