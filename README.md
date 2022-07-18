@@ -3,9 +3,11 @@
 
 ## Purpose
 This website creates unique, secure passwords for users, it includes settings like
+* Length of passwords between 8 to 128 characters
 * Include uppercase
 * Include Lowercase
-* Incluse Symbols
+* Incluse Symbols or Special Characters
+* when the text area is clicked, your password is copied to your clipboard
 
 ## Built With
 * HTML
