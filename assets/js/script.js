@@ -1,7 +1,7 @@
 let numericCharacters = '1234567890';
 let lowerCaseCharacters = 'abcdefghijklmnopqrstwxyz';
-let upperCaseCharacters =lowerCaseCharacters.toUpperCase();
-let specialCharacters = ']^_`\[' //91-96
+let upperCaseCharacters = lowerCaseCharacters.toUpperCase();
+let specialCharacters = "~`!@#$%^&*()-_+={}[]|:;'<>,.?" //91-96
 
 
 
@@ -11,6 +11,9 @@ function generatepassword(){
   let password =''
 
   let length = prompt('How long should the password be');
+  if(typeof length !== 'number'){
+     prompt('Enter a valid length')
+  }
   while(length < 8 || length > 128 ){
    length = prompt('length must be between 8 and 128')
   }
@@ -34,11 +37,11 @@ function generatepassword(){
        specialChar = prompt('Should special Character be included? y/n')
        if(specialChar.toLowerCase() === 'y'){
         params.push(specialCharacters)
-     }
+       }
 
-     function randomParam(){
-      return params[Math.floor(Math.random() * params.length)]
-   }
+       function randomParam(){
+          return params[Math.floor(Math.random() * params.length)]
+          }
 
    let random
    for(let i =0; i < length; i++){
